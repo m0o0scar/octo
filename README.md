@@ -1,5 +1,5 @@
-<img src="public/icon-128.png" alt="logo"/>
+# 🐙 Octo
 
-# Chrome Extension Boilerplate
+A helpfull AI assistent that help you improve writing, fix grammar issues, etc 😎
 
-React + Vite + TypeScript + TailwindCSS + DaisyUI
+And yes, this is just a chrome extension wrap around OpenAI chat completion API 😂

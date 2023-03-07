@@ -1,12 +1,8 @@
 {
-  "name": "chrome-extension-boilerplate",
+  "name": "octo-writing-assistent",
   "version": "0.0.1",
-  "description": "Chrome extension boilerplate",
+  "description": "Octo is a helpfull AI assistent that help you improve writing, fix grammar issues, etc.",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git"
-  },
   "scripts": {
     "build": "tsc --noEmit && vite build",
     "build:watch": "__DEV__=true vite build --watch",
