@@ -1,9 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import cls from 'classnames';
 
 export default function App() {
-  useEffect(() => {
-    console.log('content view loaded');
-  }, []);
-
-  return <div className="content-view">content view</div>;
+  return null;
 }

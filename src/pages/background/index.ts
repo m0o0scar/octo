@@ -28,5 +28,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   console.log('onclick', info);
   console.log('tab', tab);
 
-  chrome.tabs.sendMessage(tab.id, info);
+  chrome.tabs.create({
+    url: 'editor.html',
+  });
 });
